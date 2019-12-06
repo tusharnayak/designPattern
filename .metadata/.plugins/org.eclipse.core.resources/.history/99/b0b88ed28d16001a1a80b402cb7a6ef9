@@ -1,0 +1,14 @@
+package com.bridgelabz.observer.observe;
+
+public class Youtube {
+	public static void main(String[] args) {
+		Channel bb=new Channel();
+		
+		Subscriber s1=new Subscriber("tushar");
+		Subscriber s2=new Subscriber("uuuu");
+		Subscriber s3=new Subscriber("sssss");
+		Subscriber s4=new Subscriber("hhhhh");
+		Subscriber s5=new Subscriber("aaaa");
+	}
+
+}

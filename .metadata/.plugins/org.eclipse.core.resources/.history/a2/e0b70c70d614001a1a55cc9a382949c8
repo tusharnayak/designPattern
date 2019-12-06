@@ -1,0 +1,20 @@
+package com.bridgelabz.facadedesign.controller;
+
+import com.bridgelabz.facadedesign.design.HelperFacade;
+import com.bridgelabz.facadedesign.design.MySqlHelper;
+import com.bridgelabz.facadedesign.design.OracleHelper;
+import com.bridgelabz.facadedesign.design.HelperFacade.DBType;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		MySqlHelper sql=new MySqlHelper();
+		String employeeTable="connected";
+		OracleHelper oracle=new OracleHelper();
+		HelperFacade.generateReport(HelperFacade.DBType.MYSQL, HelperFacade.reportType.HTML,employeeTable);
+		HelperFacade.generateReport(HelperFacade.DBType.ORACLE, HelperFacade.reportType.PDF,employeeTable);
+
+	}
+
+}

@@ -1,0 +1,27 @@
+package com.bridgelabz.proxydesign.proxy;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class ProxyInternet implements Internet {
+	
+	private Internet internet=new RealInternet();
+	private static List<String> restricted;
+	static {
+		restricted=new ArrayList<String>();
+		restricted.add("abc.com");
+		restricted.add("xyz.com");
+		restricted.add("bridge.com");
+		}
+
+	@Override
+	public void connectTo(String serverhost) {
+		if(restricted.contains(serverhost.toLowerCase())) {
+			throws newException("access denied");
+		}
+		
+		
+	}
+	
+	
+}

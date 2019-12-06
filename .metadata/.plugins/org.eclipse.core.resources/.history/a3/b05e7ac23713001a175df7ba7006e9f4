@@ -1,0 +1,24 @@
+package com.bridgelabz.designpattern.sengleton;
+
+public class EagerInitialization {
+	private EagerInitialization() {//constructor should be private to avoid client to use the application
+		
+	}
+	private static EagerInitialization instance=new EagerInitialization();
+	public EagerInitialization getInstance() {
+		return instance;
+		
+	Private static EagerInitialization instance1=new EagerInitialization();
+	public EagerInitialization getInstance1() {
+		return instance1;
+		
+	}
+		
+	}
+	public static void main(String[] args) {
+		System.out.println(instance.hashCode());
+		System.out.println(instance.hashCode());
+	}
+	
+
+}

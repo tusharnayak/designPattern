@@ -1,0 +1,18 @@
+package com.bridgelabz.designpattern.sengleton;
+
+public class Lazy {
+	private static Lazy instance;
+	private Lazy() {
+	}
+	public Lazy getInstance() {
+		if(instance==null) {
+			instance=new Lazy();
+		}
+		return instance;
+	}
+	public static void main(String[] args) {
+		Lazy l=new Lazy();
+		System.out.println(l.hashCode());
+	}
+
+}

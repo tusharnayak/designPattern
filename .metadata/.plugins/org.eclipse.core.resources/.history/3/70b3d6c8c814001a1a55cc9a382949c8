@@ -1,0 +1,15 @@
+package com.bridgelabz.facadedesign.design;
+
+import java.sql.Connection;
+
+public class OracleHelper {
+	public static Connection getOracleConnection() {
+		return null;
+	}
+	public void generateOraclePDFReport(String table,Connection con) {//generate pdf of oracle from the table
+		
+	}
+	public void generateOracleHTMLReport(String table,Connection con) {
+		
+	}
+}

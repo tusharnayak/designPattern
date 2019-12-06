@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy package &apos;com.bridgelabz.proxydesign.proxy&apos; to &apos;DesignPattern/src&apos;&#x0A;- Original project: &apos;ProxyDesign&apos;&#x0A;- Destination element: &apos;DesignPattern/src&apos;&#x0A;- Original element: &apos;ProxyDesign/src/com.bridgelabz.proxydesign.proxy&apos;" description="Copy package" destination="=DesignPattern/src" element1="/src&lt;com.bridgelabz.proxydesign.proxy" flags="589830" fragments="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1575632051252" version="1.0"/>
+</session>

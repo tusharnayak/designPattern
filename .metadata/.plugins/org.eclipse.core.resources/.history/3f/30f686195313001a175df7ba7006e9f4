@@ -1,0 +1,21 @@
+package com.bridgelabz.designpattern.sengleton;
+
+public class ThreadSafe {
+	private static ThreadSafe instance;
+	private ThreadSafe() {
+		System.out.println("object created");
+		
+	}
+	public static synchronized ThreadSafe getInstance() {
+		if(instance== null) {
+			instance=new ThreadSafe();
+			
+		}
+		return instance;
+	}
+	
+	public static void main(String[] args) {
+		ThreadSafe obj=ThreadSafe.getInstance();
+	}
+
+}

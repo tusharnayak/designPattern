@@ -1,0 +1,10 @@
+package com.bridgelabz.jdbc.connection;
+
+import java.sql.SQLException;
+
+public interface Programs {
+	public void add() throws SQLException;
+	public void delete();
+	
+
+}

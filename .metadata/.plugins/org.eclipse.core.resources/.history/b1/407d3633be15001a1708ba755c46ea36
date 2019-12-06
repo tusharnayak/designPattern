@@ -1,0 +1,25 @@
+package com.bridgelabz.jdbc.connection;
+
+import java.sql.*;
+public class Connection {
+	
+	public static void main(String[] args) throws SQLException, ClassNotFoundException {
+		String url="jdbc:mysql://localhost:3306/tushar";
+		String userName="root";
+		String password="password";
+		
+        Class.forName("com.mysql.jdbc.Driver");   
+//		Connection con = (Connection) DriverManager.getConnection(url,userName,password);
+//		//Statement stmt = ((java.sql.Connection) con).createStatement();
+//		ResultSet rs = stmt.executeQuery("select * from student");
+				
+		
+		java.sql.Connection con= DriverManager.getConnection(url, userName, password);
+		Statement stmt =con .createStatement();
+		ResultSet rs = stmt.executeQuery("select * from student");
+		while(rs.next()) {
+			System.out.println(rs.getString(1)+" "+rs.getInt(2));
+			
+		}
+	}
+}

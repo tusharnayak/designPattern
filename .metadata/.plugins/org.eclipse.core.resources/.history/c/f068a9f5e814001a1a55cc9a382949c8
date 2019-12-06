@@ -1,0 +1,8 @@
+package com.bridgelabz.proxydesign.proxy;
+
+public class RealInternet implements Internet{
+	public static void connectTo(String serverhost) {
+		System.out.println("the connection"+serverhost);
+	}
+
+}

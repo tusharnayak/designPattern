@@ -1,0 +1,21 @@
+package com.bridgelabz.proxydesign.proxy;
+
+public class Main {
+	public static void main(String[] args) {
+		Internet internet=new ProxyInternet();
+		
+		try {
+			internet.connectTo("google.com");
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			System.out.println(e.getMessage());
+		}
+//		try {
+//			internet.connectTo("abc.com");
+//		} catch (Exception e) {
+//			// TODO Auto-generated catch block
+//			e.printStackTrace();
+//		}
+		
+	}
+}

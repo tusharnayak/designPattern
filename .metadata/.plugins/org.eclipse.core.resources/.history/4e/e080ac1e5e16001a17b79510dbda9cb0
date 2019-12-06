@@ -1,0 +1,26 @@
+package com.bridgelabz.prototypedesign.controller;
+
+import com.bridgelabz.prototypedesign.model.Company;
+
+public class Main {
+	public static void main(String[] args) throws CloneNotSupportedException {
+		Company company=new Company();//we are fetching the data from database 
+		company.setCname("Bridgelabz");
+		company.loadData();
+		//company.getEmpList().remove(2);
+		//System.out.println(company);
+		
+		
+		Company company1= company.clone();
+		company.getEmpList().remove(1);//to remove the data from 1st object not from 2nd object
+		company1.setCname("IBM");//we are fetching the data from previous data
+		//company1.loadData();
+		
+		
+		
+		System.out.println(company);
+		System.out.println(company1);
+		
+	}
+
+}

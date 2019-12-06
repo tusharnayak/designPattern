@@ -1,0 +1,8 @@
+package com.bridgelabz.proxydesign.proxy;
+
+public interface Internet {
+	public static void connectTo(String serverhost) {
+		
+	}
+
+}

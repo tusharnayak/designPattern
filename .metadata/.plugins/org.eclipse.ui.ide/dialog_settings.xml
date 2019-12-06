@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+		<item value="/home/admin1/Downloads/StockMarket-CommercialDataProcessing-master"/>
+		<item value="/home/admin1/Downloads/Singleton"/>
+		<item value="/home/admin1/Downloads/MedeatorPattern"/>
+		<item value="/home/admin1/Downloads/VisitorDesign"/>
+		<item value="/home/admin1/Downloads/PrototypeDesign"/>
+		<item value="/home/admin1/Downloads/AdapterDesign"/>
+	</list>
+</section>

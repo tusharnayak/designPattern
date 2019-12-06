@@ -1,0 +1,8 @@
+package com.bridgelabz.jdbc.connection;
+
+public interface Programs {
+	public void add();
+	public void delete();
+	
+
+}

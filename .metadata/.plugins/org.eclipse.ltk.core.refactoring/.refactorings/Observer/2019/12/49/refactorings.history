@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy package &apos;com.bridgelabz.observer.observe&apos; to &apos;DesignPattern/src&apos;&#x0A;- Original project: &apos;Observer&apos;&#x0A;- Destination element: &apos;DesignPattern/src&apos;&#x0A;- Original element: &apos;Observer/src/com.bridgelabz.observer.observe&apos;" description="Copy package" destination="=DesignPattern/src" element1="/src&lt;com.bridgelabz.observer.observe" flags="589830" fragments="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1575631091531" version="1.0"/>
+</session>

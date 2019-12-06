@@ -1,0 +1,21 @@
+package com.bridgelabz.designpattern.sengleton;
+
+public class StaticBlockInitialization {
+	private static StaticBlockInitialization instance;
+	private StaticBlockInitialization() {
+		
+	}
+	static {
+		try {
+		instance=new StaticBlockInitialization();
+	}
+		catch(Exception e) {
+			e.printStackTrace();
+		}
+    }
+	public static void main(String[] args) {
+		StaticBlockInitialization instance=new StaticBlockInitialization();
+		System.out.println(instance.instance.hashCode());
+	}
+
+}

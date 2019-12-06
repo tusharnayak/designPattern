@@ -1,0 +1,5 @@
+package com.bridgelabz.designpattern.medeatorpattern;
+
+public class ChatMedeatorImpl {
+
+}

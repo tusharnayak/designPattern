@@ -1,0 +1,44 @@
+package com.bridgelabz.facadedesign.design;
+
+import java.sql.Connection;
+
+public class HelperFacade {
+	public static void generateReport(DBType dbtype,reportType report,String tableName) {
+		Connection con=null;
+	switch(dbtype) {
+    case MYSQL:
+    	    con=MySqlHelper.getMySqlDBConnectopn();
+    	    MySqlHelper MySqlHelper=new MySqlHelper();
+               
+    	    switch(report) {
+    	      case HTML:
+    		         con= MySqlHelper.generateMySqlHTMLReport(tableName, con);
+    		         break;
+    	      case PDF:
+    	    	     con=MySqlHelper.generateMySqlPDFReport(tableName, con);
+    	    	     break;
+    	    }
+    	    break;
+    case ORACLE:
+    	    con=OracleHelper.getOracleConnection();
+    	    OracleHelper oracleHelper=new OracleHelper();
+    	    switch(report) {
+    	    case HTML:
+    	           con=oracleHelper.generateOracleHTMLReport(tableName, con);
+    	           
+    	    }
+    	    	     
+    		  
+    		
+    	}
+    }
+   
+
+public static enum DBType{
+	MYSQL,ORACLE;
+  }
+public static enum reportType{
+	PDF,HTML;
+  }
+}
+

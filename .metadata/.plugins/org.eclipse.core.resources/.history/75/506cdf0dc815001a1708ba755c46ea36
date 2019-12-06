@@ -1,0 +1,15 @@
+package com.bridgelabz.jdbc.connection;
+
+public class Project implements Programs{
+	//public static void main(String[] args) {
+		
+	
+	String url="jdbc:mysql://localhost:3306/tushar";
+	String userName="root";
+	String password="password";
+	
+		
+	
+	
+
+}

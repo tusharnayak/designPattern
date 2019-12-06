@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="com.bridgelabz.designpattern.sengleton.EagerInitialization"/>
+<fullyQualifiedTypeName name="com.bridgelabz.designpattern.sengleton.StaticBlockInitialization"/>
+<fullyQualifiedTypeName name="com.bridgelabz.designpattern.sengleton.ThreadSafe"/>
+<fullyQualifiedTypeName name="com.bridgelabz.designpattern.sengleton.BillPugh"/>
+<fullyQualifiedTypeName name="com.bridgelabz.factorypattern.service.PC"/>
+<fullyQualifiedTypeName name="com.bridgelabz.factorypattern.service.Server"/>
+<fullyQualifiedTypeName name="com.bridgelabz.factorypattern.service.Computer"/>
+<fullyQualifiedTypeName name="com.bridgelabz.factorypattern.factory.ComputerFactory"/>
+<fullyQualifiedTypeName name="com.bridgelabz.factorypattern.factory.ComputerType"/>
+<fullyQualifiedTypeName name="com.bridgelabz.factorypattern.service.SuperComputer"/>
+<fullyQualifiedTypeName name="com.bridgelabz.facadedesign.design.OracleHelper"/>
+<fullyQualifiedTypeName name="com.bridgelabz.facadedesign.design.MySqlHelper"/>
+<fullyQualifiedTypeName name="com.bridgelabz.facadedesign.design.HelperFacade"/>
+<fullyQualifiedTypeName name="com.bridgelabz.facadedesign.design.HelperFacade.DBType"/>
+<fullyQualifiedTypeName name="com.bridgelabz.facadedesign.design.HelperFacade.reportType"/>
+<fullyQualifiedTypeName name="java.util.Observer"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="java.sql.DriverManager"/>
+<fullyQualifiedTypeName name="com.bridgelabz.jdbc.connection.Project"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="com.mysql.jdbc.PreparedStatement"/>
+<fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
+<fullyQualifiedTypeName name="java.sql.SQLException"/>
+<fullyQualifiedTypeName name="com.bridgelabz.jdbcconnection.jdbc.Utility"/>
+<fullyQualifiedTypeName name="java.sql.Connection"/>
+<fullyQualifiedTypeName name="com.mysql.jdbc.Connection"/>
+<fullyQualifiedTypeName name="java.util.Scanner"/>
+<fullyQualifiedTypeName name="java.sql.Statement"/>
+<fullyQualifiedTypeName name="java.sql.ResultSet"/>
+<fullyQualifiedTypeName name="com.bridgelabz.jdbc.connection.Utility"/>
+</qualifiedTypeNameHistroy>
